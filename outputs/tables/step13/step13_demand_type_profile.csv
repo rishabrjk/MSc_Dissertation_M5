@@ -1,0 +1,5 @@
+demand_type,series_count,mean_ADI,median_ADI,mean_CV2,median_CV2,mean_zero_rate,median_zero_rate,mean_total_sales,median_total_sales,mean_non_zero_days,median_non_zero_days
+smooth,200,1.176,1.19,0.376,0.387,14.382,15.945,12416.935,7399.0,1661.845,1631.5
+erratic,200,1.207,1.217,0.728,0.613,16.827,17.826,13049.885,10928.5,1614.395,1595.0
+intermittent,200,7.234,4.125,0.286,0.288,72.436,75.76,1291.97,673.5,535.025,470.5
+lumpy,200,4.165,2.399,0.721,0.599,59.889,58.32,2851.305,1977.5,778.555,809.0

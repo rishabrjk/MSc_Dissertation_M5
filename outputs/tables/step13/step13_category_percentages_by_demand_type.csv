@@ -1,0 +1,5 @@
+demand_type,FOODS,HOBBIES,HOUSEHOLD
+smooth,67.0,7.0,26.0
+erratic,70.5,10.0,19.5
+intermittent,40.0,21.0,39.0
+lumpy,64.0,20.0,16.0

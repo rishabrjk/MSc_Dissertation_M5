@@ -1,0 +1,5 @@
+demand_type,total_rows,complete_sales_feature_rows,complete_percentage
+smooth,388200,377000,97.115
+erratic,388200,377000,97.115
+intermittent,388200,377000,97.115
+lumpy,388200,377000,97.115

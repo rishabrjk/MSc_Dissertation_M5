@@ -1,0 +1,41 @@
+demand_type,event_type_label,event_name_label,series_count,event_dates,median_event_uplift_pct,mean_event_uplift_pct,positive_series_pct
+intermittent,National,Christmas,200,5,-100.0,-100.0,0.0
+intermittent,National,Thanksgiving,200,5,-88.776,-50.226,14.0
+intermittent,National,NewYear,200,5,-62.134,-30.267,26.5
+intermittent,Multiple,Multiple events,200,4,-49.373,-8.275,35.5
+intermittent,Religious,LentWeek2,200,6,-40.416,-20.91,32.5
+intermittent,Sporting,NBAFinalsStart,200,5,-38.103,-18.988,29.5
+intermittent,National,IndependenceDay,200,5,-38.062,-27.688,29.5
+intermittent,National,MemorialDay,200,5,-37.476,-10.326,32.0
+intermittent,Sporting,NBAFinalsEnd,200,4,-37.054,-20.325,35.5
+intermittent,Religious,OrthodoxChristmas,200,5,-33.08,-11.25,34.5
+intermittent,Cultural,Halloween,200,5,-32.006,3.794,36.0
+intermittent,Religious,Chanukah End,200,5,-25.475,-7.428,38.0
+intermittent,Cultural,Father's day,200,4,-24.641,-1.363,36.5
+intermittent,National,ColumbusDay,200,5,-23.76,3.275,42.5
+intermittent,Religious,Ramadan starts,200,5,-22.931,-6.394,38.5
+intermittent,National,VeteransDay,200,5,-22.717,-7.539,36.0
+intermittent,National,MartinLutherKingDay,200,5,-21.785,-5.839,38.5
+intermittent,Cultural,Easter,200,4,-21.14,22.199,44.5
+intermittent,Religious,Pesach End,200,6,-20.131,1.549,40.5
+intermittent,Cultural,ValentinesDay,200,6,-17.377,4.912,41.0
+lumpy,National,Christmas,200,5,-100.0,-100.0,0.0
+lumpy,National,Thanksgiving,200,5,-75.018,-47.669,13.5
+lumpy,Sporting,NBAFinalsEnd,200,4,-38.949,-16.812,32.5
+lumpy,National,NewYear,200,5,-38.123,-32.518,27.0
+lumpy,National,IndependenceDay,200,5,-34.388,-8.211,29.5
+lumpy,Sporting,NBAFinalsStart,200,5,-33.531,-21.261,31.5
+lumpy,National,ColumbusDay,200,5,-31.153,2.819,36.0
+lumpy,Religious,EidAlAdha,200,5,-29.638,-15.185,37.0
+lumpy,Cultural,Father's day,200,4,-28.405,-14.417,33.0
+lumpy,National,MemorialDay,200,5,-27.93,-3.86,34.5
+lumpy,Religious,LentWeek2,200,6,-27.754,-16.287,32.0
+lumpy,National,MartinLutherKingDay,200,5,-25.319,-8.418,37.5
+lumpy,Multiple,Multiple events,200,4,-24.469,-2.893,36.5
+lumpy,Religious,Eid al-Fitr,200,5,-23.011,-5.485,34.5
+lumpy,Cultural,Halloween,200,5,-19.762,-0.076,34.0
+lumpy,Religious,Chanukah End,200,5,-18.788,13.195,39.0
+lumpy,Cultural,ValentinesDay,200,6,-18.681,0.318,39.0
+lumpy,Religious,LentStart,200,6,-18.459,-11.336,36.5
+lumpy,Religious,OrthodoxChristmas,200,5,-18.304,3.802,42.5
+lumpy,National,PresidentsDay,200,6,-15.635,-1.038,43.0

@@ -1,0 +1,9 @@
+id,rolling_mean_7_valid,rolling_mean_28_valid,rolling_std_7_valid,rolling_std_28_valid
+HOUSEHOLD_1_389_TX_1_evaluation,True,True,True,True
+HOUSEHOLD_1_303_CA_3_evaluation,True,True,True,True
+FOODS_2_020_TX_3_evaluation,True,True,True,True
+HOBBIES_1_249_CA_3_evaluation,True,True,True,True
+FOODS_2_043_CA_2_evaluation,True,True,True,True
+HOUSEHOLD_1_114_CA_2_evaluation,True,True,True,True
+FOODS_3_501_TX_2_evaluation,True,True,True,True
+HOBBIES_1_043_CA_3_evaluation,True,True,True,True

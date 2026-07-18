@@ -1,0 +1,16 @@
+check,actual,expected,passed
+Five folds created,5,5,True
+Test days per fold,28,28,True
+Prediction rows,112000,112000,True
+Missing forecasts,0,0,True
+Forecast sources after training end,0,0,True
+Seven source dates per series-fold,7,7,True
+Seven-day forecast pattern repeats,1,1,True
+Forecast horizon begins at day 1,1,1,True
+Forecast horizon ends at day 28,28,28,True
+Fold-type row count,5600,5600,True
+WRMSSE values finite,True,True,True
+MAE values finite,True,True,True
+Hierarchy weights sum to 1,1.0,1.0,True
+Hierarchy test days,28,28,True
+WRMSSE denominators use training data only,True,True,True

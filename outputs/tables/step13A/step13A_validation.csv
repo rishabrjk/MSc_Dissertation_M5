@@ -1,0 +1,14 @@
+check,actual,expected,passed
+Input rows,1552800,1552800,True
+Input series,800,800,True
+Event rows,126400,126400,True
+Demand types,4,4,True
+Series baselines,800,800,True
+Event-type codes,6,6,True
+Event-type summary rows,20,20,True
+Sparse event-name output rows,40,40,True
+Exact M5 store columns,10,10,True
+Normalised store-day rows,19410,19410,True
+Unique stores,10,10,True
+Missing store sales,0,0,True
+Duplicate store-date rows,0,0,True

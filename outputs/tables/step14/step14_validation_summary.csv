@@ -1,0 +1,8 @@
+check,actual,expected,passed
+Input rows preserved,1552800,1552800,True
+Series preserved,800,800,True
+Duplicate id-date rows,0,0,True
+Missing demand types,0,0,True
+Lag calculations valid,True,True,True
+Rolling calculations valid,True,True,True
+Complete sales-feature rows,1508000,1508000,True

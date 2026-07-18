@@ -1,0 +1,5 @@
+demand_type,series_count,total_sales,mean_total_sales_per_series,median_total_sales_per_series,mean_daily_sales_per_series,median_daily_sales_per_series,mean_non_zero_demand,median_non_zero_demand
+smooth,200,2483387,12416.935,7399.0,6.397,3.812,7.154,4.453
+erratic,200,2609977,13049.885,10928.5,6.723,5.63,8.022,6.809
+intermittent,200,258394,1291.97,673.5,0.666,0.347,1.916,1.476
+lumpy,200,570261,2851.305,1977.5,1.469,1.019,3.166,2.463

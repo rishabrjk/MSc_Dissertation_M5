@@ -1,0 +1,5 @@
+demand_type,series_count,mean_non_event_sales,mean_event_sales,mean_event_uplift_pct,median_event_uplift_pct,positive_uplift_series_pct
+smooth,200,6.411,6.24,-3.183,-3.707,31.5
+erratic,200,6.745,6.481,-2.937,-3.15,32.5
+intermittent,200,0.669,0.623,-6.598,-7.066,29.5
+lumpy,200,1.475,1.401,-4.257,-5.732,36.5

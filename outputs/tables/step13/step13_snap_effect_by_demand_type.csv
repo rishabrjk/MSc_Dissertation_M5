@@ -1,0 +1,5 @@
+demand_type,series_count,mean_non_snap_sales,mean_snap_sales,mean_snap_uplift_pct,median_snap_uplift_pct,positive_uplift_series_pct
+smooth,200,6.178,6.843,12.215,7.436,88.5
+erratic,200,6.419,7.343,14.005,8.858,86.5
+intermittent,200,0.648,0.701,6.982,4.679,70.5
+lumpy,200,1.402,1.604,14.056,7.22,76.0

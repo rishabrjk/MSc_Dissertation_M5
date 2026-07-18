@@ -1,0 +1,8 @@
+item,result,required
+Audit groups,240,240
+Folds,5,5
+Demand types,4,4
+Hierarchy levels,12,12
+Scales using training only,True,True
+Manual scales match stored scales,True,True
+Maximum scale difference,0.0,0.0

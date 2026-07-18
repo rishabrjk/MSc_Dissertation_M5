@@ -1,0 +1,5 @@
+demand_type,binary_median_uplift_pct,binary_mean_uplift_pct,binary_positive_series_pct
+smooth,-3.707,-3.183,31.5
+erratic,-3.15,-2.937,32.5
+intermittent,-7.066,-6.598,29.5
+lumpy,-5.732,-4.257,36.5

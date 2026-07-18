@@ -1,0 +1,5 @@
+demand_type,Naive_WRMSSE,Naive_MAE,Number_of_Series
+smooth,0.8064,3.335,200
+erratic,0.95,4.4505,200
+intermittent,1.2156,0.894,200
+lumpy,1.2589,1.7669,200

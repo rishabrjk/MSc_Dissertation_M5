@@ -1,0 +1,19 @@
+feature_group,feature,definition,leakage_control
+Lag,lag_7,Sales exactly 7 days earlier,grouped shift by 7 dates
+Lag,lag_14,Sales exactly 14 days earlier,grouped shift by 14 dates
+Lag,lag_28,Sales exactly 28 days earlier,grouped shift by 28 dates
+Lag,lag_56,Sales exactly 56 days earlier,grouped shift by 56 dates
+Rolling,rolling_mean_7,Mean sales over the previous 7 days,sales shifted by 1 day before rolling
+Rolling,rolling_mean_28,Mean sales over the previous 28 days,sales shifted by 1 day before rolling
+Rolling,rolling_std_7,Sales standard deviation over the previous 7 days,sales shifted by 1 day before rolling
+Rolling,rolling_std_28,Sales standard deviation over the previous 28 days,sales shifted by 1 day before rolling
+Calendar,weekday,M5 weekday number from 1 to 7,known calendar value
+Calendar,month,Calendar month from 1 to 12,known calendar value
+Calendar,year,Calendar year,known calendar value
+Calendar,is_weekend,"1 for Saturday or Sunday, otherwise 0",known calendar value
+Event and SNAP,event_flag,1 when at least one M5 event is listed,known calendar value
+Event and SNAP,event_type_encoded,Numeric encoding of the listed event type,known calendar value
+Event and SNAP,snap_flag,State-specific SNAP activity indicator,known calendar value
+Price,sell_price,Scheduled weekly selling price,"current scheduled price, not future sales"
+Price,price_change,Proportional change from the previous listed week,previous weekly price used as comparison
+Price,price_vs_28d_avg,Current price divided by the prior 28-day average,price average shifted by 1 day

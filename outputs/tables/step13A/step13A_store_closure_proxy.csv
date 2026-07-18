@@ -1,0 +1,6 @@
+event_type_label,stores,event_store_days,event_dates,zero_sales_store_days,median_store_sales_change_pct,mean_store_sales_change_pct,closure_proxy_rate_pct
+Cultural,10,360,36,0,-0.558,0.305,0.0
+Multiple,10,40,4,0,6.859,6.635,0.0
+National,10,510,51,24,-14.541,-15.307,4.706
+Religious,10,520,52,0,-0.531,-0.318,0.0
+Sporting,10,150,15,0,2.642,2.017,0.0

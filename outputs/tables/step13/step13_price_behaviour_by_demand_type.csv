@@ -1,0 +1,5 @@
+demand_type,series_count,mean_price_coverage_pct,median_price_coverage_pct,mean_observed_price,median_observed_price,mean_price_change_rate_pct,median_price_change_rate_pct
+smooth,200,99.358,100.0,3.341,2.73,1.171,0.722
+erratic,200,99.601,100.0,1.831,1.0,1.443,0.722
+intermittent,200,79.258,90.443,5.61,4.375,0.943,0.721
+lumpy,200,81.11,96.394,2.466,1.98,1.393,0.897
