@@ -1,0 +1,14 @@
+check,passed
+20 inner selections validated,True
+20 final fold-type results,True
+"112,000 final predictions",True
+240 hierarchy-level results,True
+4 demand-type report rows,True
+48 hierarchy summary rows,True
+20 saved XGBoost models,True
+No required output missing,True
+No missing final forecasts,True
+No negative final forecasts,True
+All baseline scores reproduced,True
+XGBoost improved MAE in all 20 comparisons,True
+XGBoost improved RMSE in all 20 comparisons,True
