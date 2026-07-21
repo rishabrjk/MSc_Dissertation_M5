@@ -1,0 +1,53 @@
+{
+  "seed": 42,
+  "xgboost_version": "3.3.0",
+  "objective": "reg:tweedie",
+  "tweedie_variance_power": 1.5,
+  "feature_groups": {
+    "lag": [
+      "lag_7",
+      "lag_14",
+      "lag_28",
+      "lag_56"
+    ],
+    "rolling": [
+      "rolling_mean_7",
+      "rolling_std_7",
+      "rolling_mean_28",
+      "rolling_std_28"
+    ],
+    "calendar": [
+      "is_weekend",
+      "weekday",
+      "month",
+      "year"
+    ],
+    "event_snap": [
+      "event_flag",
+      "event_type_encoded",
+      "snap_flag"
+    ],
+    "price": [
+      "sell_price",
+      "price_change",
+      "price_vs_28d_avg"
+    ]
+  },
+  "ablation_design": "leave-one-feature-group-out",
+  "retune_ablated_models": false,
+  "rounds_source": "Step 16 fold-and-demand-type-specific selected rounds",
+  "primary_metric": "WRMSSE",
+  "secondary_metrics": [
+    "MAE",
+    "RMSE"
+  ],
+  "folds": 5,
+  "demand_types": [
+    "smooth",
+    "erratic",
+    "intermittent",
+    "lumpy"
+  ],
+  "ablation_models": 100,
+  "recursive_forecasting": true
+}

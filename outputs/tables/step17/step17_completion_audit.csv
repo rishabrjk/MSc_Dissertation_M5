@@ -1,0 +1,12 @@
+check,passed
+100 ablation models completed,True
+"560,000 ablation predictions",True
+"1,200 hierarchy-level results",True
+20 demand-feature summary rows,True
+240 hierarchy summary rows,True
+100 individual prediction files,True
+No required output missing,True
+No missing forecasts,True
+No non-finite forecasts,True
+No negative forecasts,True
+Five removals per fold and demand type,True
