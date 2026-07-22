@@ -1,0 +1,31 @@
+check,passed
+Ten final LSTM result rows,True
+Five folds represented,True
+Smooth and erratic represented,True
+All selected epochs valid,True
+Manual and callback epochs agree,True
+Ten model files,True
+All model files non-empty,True
+Ten individual prediction files,True
+"56,000 rows across individual predictions",True
+"56,000 combined prediction rows",True
+Ten selection-history files,True
+Ten refit-history files,True
+Saved training audit passed,True
+Ten scorer-validation rows,True
+XGBoost WRMSSE reproduced within 1e-8,True
+XGBoost MAE reproduced within 1e-8,True
+XGBoost RMSE reproduced within 1e-8,True
+Ten model-comparison rows,True
+XGBoost won all ten WRMSSE comparisons,True
+All ten LSTM mean errors negative,True
+240 hierarchy-level result rows,True
+Two demand-type summary rows,True
+24 hierarchy-comparison rows,True
+Twelve levels per demand type,True
+Two report-summary rows,True
+Report conclusion recorded,True
+All four figures exist,True
+No required named output missing,True
+No required named output empty,True
+No partial files remain,True

@@ -1,0 +1,2 @@
+fold,demand_type,training_windows,batch_size,epochs_run,first_epoch_seconds,second_epoch_seconds,mean_epoch_seconds,total_seconds,final_training_loss,final_validation_loss,final_training_mae,final_validation_mae,projected_50_epoch_minutes,projected_50_epoch_hours
+1,smooth,338000,512,2,31.879335600184277,29.668292100075632,30.773813850129955,61.564314200077206,0.8361272215843201,1.0535677671432495,0.7159478068351746,0.7736721038818359,24.723576750063028,0.41205961250105044

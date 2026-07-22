@@ -1,0 +1,58 @@
+{
+  "experiment": {
+    "purpose": "Sequence-only LSTM feasibility study",
+    "demand_types": [
+      "smooth",
+      "erratic"
+    ],
+    "folds": 5,
+    "models": 10,
+    "series_per_model": 200,
+    "forecast_horizon_days": 28,
+    "input_history_days": 56,
+    "forecast_design": "Direct 28-day multi-output"
+  },
+  "transformation": {
+    "sales_transformation": "log1p",
+    "scaling": "Per-series standardisation using training data only",
+    "scaling_scope": "Fitted separately for each series using training data only"
+  },
+  "architecture": {
+    "lstm_units": 32,
+    "dense_units": 16,
+    "model_parameters": 5356,
+    "loss": "Mean squared error",
+    "optimizer": "Adam",
+    "learning_rate": 0.001,
+    "clipnorm": 1.0
+  },
+  "training": {
+    "batch_size": 512,
+    "maximum_epochs": 50,
+    "early_stopping_patience": 5,
+    "early_stopping_min_delta": 0.0001,
+    "inner_validation_days": 28,
+    "seed": 42,
+    "deterministic_operations": true
+  },
+  "software": {
+    "python_version": "3.13.5 | packaged by Anaconda, Inc. | (main, Jun 12 2025, 16:37:03) [MSC v.1929 64 bit (AMD64)]",
+    "tensorflow_version": "2.21.0",
+    "keras_version": "3.15.0",
+    "execution_device": "Windows CPU"
+  },
+  "evaluation": {
+    "primary_metric": "WRMSSE",
+    "secondary_metrics": [
+      "MAE",
+      "RMSE",
+      "Mean forecast error"
+    ],
+    "hierarchy_levels": 12,
+    "comparison_models": [
+      "Seasonal naive",
+      "XGBoost"
+    ],
+    "interpretation": "Feasibility comparison, not an isolated architecture comparison"
+  }
+}

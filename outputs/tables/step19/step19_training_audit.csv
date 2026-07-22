@@ -1,0 +1,20 @@
+check,passed
+Ten result rows,True
+Ten prediction files,True
+Ten model files,True
+Ten selection histories,True
+Ten refit histories,True
+"56,000 combined forecasts",True
+Ten fold-demand groups,True
+"5,600 forecasts per model",True
+200 series per model,True
+28 dates per model,True
+28 horizons per model,True
+No duplicate forecast rows,True
+No missing forecasts,True
+All forecasts finite,True
+No negative forecasts,True
+All actual sales finite,True
+All selected epochs valid,True
+Manual and callback epochs agree,True
+All result metrics finite,True

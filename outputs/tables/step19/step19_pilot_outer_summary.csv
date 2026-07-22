@@ -1,0 +1,2 @@
+fold,demand_type,selected_epochs,refit_training_windows,refit_data_seconds,refit_training_seconds,refit_training_minutes,outer_forecasts,outer_mae,outer_rmse,outer_mean_error,model_parameters
+1,smooth,2,343600,0.48929579998366535,55.70129460003227,0.9283549100005378,5600,2.985712706253731,5.3296699127610285,-0.8183153562048184,5356
