@@ -1,0 +1,26 @@
+check,passed
+20 model audit rows,True
+360 feature result rows,True
+100 feature-group result rows,True
+"112,000 detailed SHAP rows",True
+20 fold-demand groups,True
+"5,600 rows per model",True
+200 series per model,True
+28 dates per model,True
+28 horizons per model,True
+18 features per model,True
+Five feature groups per model,True
+No required detail columns missing,True
+No duplicate detailed rows,True
+All forecasts exactly reproduced,True
+All SHAP additivity checks passed,True
+All feature shares sum to one,True
+All group shares sum to one,True
+No missing feature importance values,True
+No missing group importance values,True
+No non-finite feature importance values,True
+No non-finite group importance values,True
+No non-finite detailed SHAP values,True
+No non-finite output margins,True
+No non-finite bias contributions,True
+20 unique detailed files,True

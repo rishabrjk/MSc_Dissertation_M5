@@ -1,0 +1,13 @@
+check,passed
+"5,600 SHAP rows",True
+19 contribution columns,True
+No non-finite SHAP values,True
+No non-finite output margins,True
+SHAP contributions reproduce margin,True
+18 feature importance rows,True
+Five feature-group rows,True
+All feature groups represented,True
+Feature shares sum to one,True
+Group shares sum to one,True
+Feature shares are non-negative,True
+Group shares are non-negative,True

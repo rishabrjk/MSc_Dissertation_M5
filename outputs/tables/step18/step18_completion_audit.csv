@@ -1,0 +1,30 @@
+check,passed
+Pilot SHAP audit passed,True
+20-model run audit passed,True
+Complete SHAP audit passed,True
+Demand-type summary audit passed,True
+SHAP-ablation comparison passed,True
+Report summary audit passed,True
+20 model audit rows,True
+Five folds represented,True
+Four demand types represented,True
+360 feature-level rows,True
+18 features per model,True
+100 feature-group rows,True
+Five groups per model,True
+"112,000 combined SHAP rows",True
+No duplicate combined SHAP rows,True
+72 demand-type feature rows,True
+20 demand-type group rows,True
+20 SHAP-ablation rows,True
+Four report-summary rows,True
+20 individual detail files,True
+"112,000 rows across individual files",True
+No required output missing,True
+No required output is empty,True
+No partial files remain,True
+All forecasts reproduced exactly,True
+Maximum additivity difference below 1e-4,True
+All feature shares are valid,True
+All group shares are valid,True
+All three figures exist,True

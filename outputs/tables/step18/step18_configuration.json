@@ -1,0 +1,73 @@
+{
+    "step": 18,
+    "analysis": "Native XGBoost TreeSHAP analysis by demand type",
+    "models": 20,
+    "folds": 5,
+    "demand_types": [
+        "smooth",
+        "erratic",
+        "intermittent",
+        "lumpy"
+    ],
+    "features": [
+        "lag_7",
+        "lag_14",
+        "lag_28",
+        "lag_56",
+        "rolling_mean_7",
+        "rolling_std_7",
+        "rolling_mean_28",
+        "rolling_std_28",
+        "is_weekend",
+        "weekday",
+        "month",
+        "year",
+        "event_flag",
+        "event_type_encoded",
+        "snap_flag",
+        "sell_price",
+        "price_change",
+        "price_vs_28d_avg"
+    ],
+    "feature_groups": {
+        "lag": [
+            "lag_7",
+            "lag_14",
+            "lag_28",
+            "lag_56"
+        ],
+        "rolling": [
+            "rolling_mean_7",
+            "rolling_std_7",
+            "rolling_mean_28",
+            "rolling_std_28"
+        ],
+        "calendar": [
+            "is_weekend",
+            "weekday",
+            "month",
+            "year"
+        ],
+        "event_snap": [
+            "event_flag",
+            "event_type_encoded",
+            "snap_flag"
+        ],
+        "price": [
+            "sell_price",
+            "price_change",
+            "price_vs_28d_avg"
+        ]
+    },
+    "outer_test_rows": 112000,
+    "rows_per_model": 5600,
+    "series_per_model": 200,
+    "forecast_horizon": 28,
+    "shap_method": "Exact native XGBoost pred_contribs",
+    "importance_measure": "Mean absolute SHAP contribution",
+    "normalisation": "Importance shares were normalised separately for each fold and demand type before averaging across folds.",
+    "output_scale": "XGBoost raw model-margin scale",
+    "forecast_reconstruction": "Observed training sales and stored recursive predictions were used. Actual outer-test sales were not used to construct recursive features.",
+    "causal_interpretation": false,
+    "random_seed": 42
+}
