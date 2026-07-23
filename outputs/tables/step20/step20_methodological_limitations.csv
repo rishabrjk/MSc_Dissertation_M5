@@ -1,0 +1,11 @@
+area,limitation,reporting_rule
+Balanced modelling subset,"The modelling experiment used 200 series from each demand type. This enabled equal cross-type comparison but did not preserve the natural M5 distribution, where intermittent and lumpy demand represented 95.156% of series.",Interpret comparisons as results from a balanced experimental design rather than population-level M5 estimates.
+Subset WRMSSE,The 12-level hierarchy and weights were rebuilt separately for each 200-series demand-type subset.,Do not compare the scores directly with the official full-M5 competition leaderboard.
+Forecast-origin count,Each demand type contained only five independent walk-forward forecast origins.,Treat fold comparisons as descriptive and do not claim statistical significance.
+Diebold–Mariano test,"The experiment produced multi-horizon forecasts from only five origins per demand type. Treating individual series, dates or horizons as independent observations would overstate the effective sample size.",Omit the test and report insufficient independent forecast origins as the reason.
+Feature ablation,Ablated models used the Step 16 round counts and were not retuned after removing a feature group.,"Interpret ΔWRMSSE as conditional evidence under the locked training configuration, not independent or causal importance."
+SHAP interpretation,SHAP measured how the fitted XGBoost models relied on features on the output-margin scale.,"Do not interpret high SHAP importance as forecast benefit, causality or statistical significance."
+LSTM comparison,"The LSTM used only 56 historical sales values, while XGBoost used lag, rolling, calendar, event, SNAP and price features.","Present the LSTM as a sequence-only feasibility study, not a controlled architecture comparison."
+LSTM demand-type scope,The LSTM experiment covered smooth and erratic demand only.,Do not infer LSTM performance for intermittent or lumpy demand.
+Missing price values,Price missingness was concentrated in intermittent and lumpy demand and was retained rather than filled.,"Describe this as a modelling decision based on likely product absence from sale, not confirmed stock status."
+External regressors,Weather and search-trend regressors were excluded from the final locked scope.,Do not imply that external regressors were tested or that their usefulness was established.

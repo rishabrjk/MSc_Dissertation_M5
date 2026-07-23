@@ -1,0 +1,19 @@
+check,passed
+All prior Step 20 audits passed,True
+Four master model rows,True
+Five folds per master model row,True
+XGBoost best for all demand types,True
+20 master feature rows,True
+Five feature groups per demand type,True
+Saved ablation values reproduced within 1e-12,True
+Saved SHAP shares sum to 100 percent,True
+Four integrated-finding rows,True
+Ten methodological limitations,True
+Four report model rows,True
+Four report feature rows,True
+Nine final technical conclusions,True
+No missing conclusion values,True
+Final model figure exists,True
+No required Step 20 output missing,True
+No required Step 20 output empty,True
+No partial Step 20 files remain,True

@@ -1,0 +1,45 @@
+{
+  "purpose": "Consolidate validated forecasting, ablation, SHAP and LSTM results",
+  "models_retrained": false,
+  "demand_types": [
+    "smooth",
+    "erratic",
+    "intermittent",
+    "lumpy"
+  ],
+  "primary_metric": "WRMSSE",
+  "secondary_metrics": [
+    "MAE",
+    "RMSE"
+  ],
+  "validated_steps": [
+    16,
+    17,
+    18,
+    19
+  ],
+  "primary_model_result": "XGBoost produced the lowest mean WRMSSE for all four demand types",
+  "lstm_scope": [
+    "smooth",
+    "erratic"
+  ],
+  "lstm_result": "LSTM did not improve WRMSSE",
+  "statistical_testing": {
+    "diebold_mariano_test": "Omitted",
+    "reason": "Only five independent multi-horizon forecast origins per demand type"
+  },
+  "interpretation_rules": [
+    "Report every result separately by demand type",
+    "Do not interpret SHAP as forecast benefit or causality",
+    "Treat ablation as conditional under non-retuned settings",
+    "Do not claim statistical significance",
+    "Do not compare subset WRMSSE with the official M5 leaderboard",
+    "Present LSTM as a sequence-only feasibility study"
+  ],
+  "software": {
+    "python_version": "3.13.5 | packaged by Anaconda, Inc. | (main, Jun 12 2025, 16:37:03) [MSC v.1929 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "pandas_version": "2.2.3",
+    "numpy_version": "2.1.3"
+  }
+}
