@@ -1,0 +1,26 @@
+CLASSIFICATION STABILITY AUDIT
+==================================================
+Training window: d_1 to d_1801 (2011-01-29 to 2016-01-03)
+Full history:    d_1 to d_1941 (2011-01-29 to 2016-05-22)
+Thresholds:      ADI = 1.32, CV² = 0.49
+Total series:    800
+
+Overall agreement: 750/800 (93.8%)
+
+Per-demand-type agreement:
+  smooth         : 189/200 (94.5%)
+  erratic        : 179/200 (89.5%)
+  intermittent   : 197/200 (98.5%)
+  lumpy          : 185/200 (92.5%)
+
+Total series that changed class: 50
+
+Changes per demand type (full-history label):
+  smooth         : 11
+  erratic        : 21
+  intermittent   : 3
+  lumpy          : 15
+
+Borderline series (within 0.10 of ADI=1.32): 199
+Borderline series (within 0.10 of CV²=0.49): 309
+Borderline series (within 0.10 of either):   415

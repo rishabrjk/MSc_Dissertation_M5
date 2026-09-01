@@ -1,0 +1,5 @@
+demand_type,Seasonal_Naive,XGBoost,Croston,SBA,best_model
+smooth,0.8064,0.636,0.8556,0.8536,XGBoost
+erratic,0.95,0.7938,0.8819,0.8853,XGBoost
+intermittent,1.2156,1.2095,1.1156,1.0978,SBA
+lumpy,1.2589,1.1275,1.0674,1.0756,Croston
